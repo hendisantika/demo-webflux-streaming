@@ -1,9 +1,9 @@
 package com.hendisantika.quoteservice
 
-import org.omg.CORBA.ServerRequest
 import org.springframework.http.MediaType.APPLICATION_STREAM_JSON
 import org.springframework.http.MediaType.TEXT_EVENT_STREAM
 import org.springframework.stereotype.Component
+import org.springframework.web.reactive.function.server.ServerRequest
 import org.springframework.web.reactive.function.server.ServerResponse.ok
 import java.time.Duration.ofMillis
 
